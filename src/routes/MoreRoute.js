@@ -32,7 +32,7 @@ function MoreRoute() {
               and i enjoy it as a hobby.
               </Paragraph>
               <Paragraph>
-              I dont know what else to add to this website you can give me ideas by contacting with me is via E-Mail:{" "}
+              I dont know what else to add to this website you can give me ideas by contacting me via E-Mail:{" "}
               <a
                 className="custom-purple-color"
                 href="mailto:contact@iamanas.dev"
