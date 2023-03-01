@@ -1,2 +1,3 @@
-# Iamanas
-My portfolio website
+# Credit
+
+Special credit goes to Sandbox#5210 for his huge help and inspiration.
