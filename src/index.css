@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-  background-color: #000000;
+  background-color: white;
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
 ::selection {
-  background-color: #363636;
+  background-color: rgb(233, 233, 229);
 }
 
 .sidebar-border-right {
@@ -26,11 +26,11 @@ body {
 }
 
 .grey-color {
-  color: #a3a3a3;
+  color: #000000;
 }
 
 .blurry-bg {
-  background-color: rgba(0, 0, 0, 0.744);
+  background-color: rgba(181, 179, 179, 0.744);
   backdrop-filter: blur(10px);
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .border:hover {
-  background-color: #101010;
+  background-color: #565656;
   margin: 1px;
   border: none;
 }

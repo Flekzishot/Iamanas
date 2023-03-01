@@ -50,7 +50,7 @@ const Sidebar = (props) => {
             <div className="flex flex-col flex-1 mt-12 ml-8">
               <a
                 href="https://www.google.com/maps/place/Agadir+80000"
-                className="text-sm font-normal flex mb-5 text-gray-100 hover:text-gray-300 transition-all gap-1 place-items-center"
+                className="text-sm font-normal flex mb-5 text-gray-100 hover:text-black transition-all gap-1 place-items-center"
               >
                 <ImLocation className="custom-purple-color" /> Morocco, Aga.
               </a>
@@ -75,10 +75,10 @@ const Sidebar = (props) => {
         <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
           <nav className="flex flex-col flex-1">
             <div className="flex flex-col flex-1 mt-12 ml-8">
-              <h1 className="text-xl font-bold text-gray-100">Anas A.</h1>
+              <h1 className="text-xl font-bold text-black">Anas A.</h1>
               <a
                 href="https://www.google.com/maps/place/Agadir+80000"
-                className="text-sm font-normal flex mb-5 text-gray-100 hover:text-gray-300 transition-all gap-1 place-items-center"
+                className="text-sm font-normal flex mb-5 text-gray-black hover:text-gray-400 transition-all gap-1 place-items-center"
               >
                 <ImLocation className="custom-purple-color" /> Morocco, Aga.
               </a>
@@ -86,9 +86,9 @@ const Sidebar = (props) => {
                 <Link
                   to={item.link}
                   key={index}
-                  className={`flex items-center h-12  hover:text-white ${
+                  className={`flex items-center h-12  hover:text-black ${
                     window.location.pathname === item.link
-                      ? "text-white border-r-gray-300 border-r"
+                      ? "text-zinc-800 border-r-gray-300 border-r"
                       : "grey-color"
                   } transition-all `}
                 >
