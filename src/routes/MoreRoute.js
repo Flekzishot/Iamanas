@@ -20,7 +20,7 @@ function MoreRoute() {
         >
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden max-w-3xl">
             <div className="flex flex-col flex-1">
-              <Header className ="text-xl font-bold text-gray-100">
+              <Header>
                 More info
               </Header>
               <Header>
