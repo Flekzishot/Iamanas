@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+::selection {
+  background-color: #363636;
+}
+
+.sidebar-border-right {
+  border-right: 1px solid #0c0c0c;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #0c0c0c;
+}
+
+.custom-purple-color {
+  color: #ab87ff;
+}
+
+.grey-color {
+  color: #a3a3a3;
+}
+
+.blurry-bg {
+  background-color: rgba(0, 0, 0, 0.744);
+  backdrop-filter: blur(10px);
+}
+
+.border-right {
+  border-right: 1px solid #101010;
+}
+
+.border {
+  border: 1px solid #0c0c0c;
+}
+
+.border:hover {
+  background-color: #101010;
+  margin: 1px;
+  border: none;
+}
+
+.border:hover > .border-bottom {
+  border-bottom: 1px solid #101010;
+}
+
+.border:hover > .border-right {
+  border-bottom: none;
+}
+
+.big-proj {
+  min-width: 300px;
+}
+
+.border-bottom-proj {
+  border-bottom: 1px solid #0c0c0c;
+}
+
+@media screen and (min-width: 767px) {
+  .border-bottom-proj {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .border-right {
+    border-right: none;
+  }
+}
