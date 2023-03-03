@@ -5,8 +5,8 @@ const skillsArray = [
     
     {
         name: "html",
-        type: "Web developpement",
-        use: "Litteraly the easiest language a human can learn and use, mainly used for front-end websites, the basic of the basics",
+        type: "Web development",
+        use: "Literally the easiest language a human can learn and use, mainly used for front-end websites, the basic of the basics",
         dotColor: "#913133",
     },
     {

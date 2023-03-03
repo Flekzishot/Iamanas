@@ -27,12 +27,12 @@ function MoreRoute() {
                 Why do i code?
               </Header>
               <Paragraph>
-              One of the many reasons is -  Problem-solving: Coding can be a way to solve complex problems 
+              One of the many reasons is -  Problem-solving: Coding can be a way to solve complex problems
               and create solutions that can improve people's lives and/or make work more efficient.
               and i enjoy it as a hobby.
               </Paragraph>
               <Paragraph>
-              I dont know what else to add to this website you can give me ideas by contacting  me via E-Mail:{" "}
+              I don't know what else to add to this website you can give me ideas by contacting  me via E-Mail:{" "}
               <a
                 className="custom-purple-color"
                 href="mailto:contact@iamanas.dev"
