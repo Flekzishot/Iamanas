@@ -30,7 +30,7 @@ function MainRoute() {
               I had to take a very long pause due to a lack of motivation and school along with other occupations.
             </Paragraph>
             <Paragraph>
-              I made it my goal to become a fine Fullstack developper and to expand my skillset.
+              I made it my goal to become a fine Fullstack developer and to expand my skill set.
             </Paragraph>
             <Paragraph>
               If you want to contact me, you can do so by visiting my{" "}
@@ -39,7 +39,6 @@ function MainRoute() {
               </Link>
               .
             </Paragraph>
-            
           </div>
         </div>
       </motion.div>
