@@ -26,7 +26,7 @@ body {
 }
 
 .grey-color {
-  color: #000000;
+  color: #353232;
 }
 
 .blurry-bg {
@@ -75,3 +75,63 @@ body {
     border-right: none;
   }
 }
+.skill-block:hover {
+opacity: 0;
+animation : Fade 0.2s ease-in-out forwards; 
+}
+@keyframes Fade {
+0%{
+  opacity: 0;
+}
+20% {
+  opacity: 0.2;
+}
+40%{
+  opacity: 0.4;
+}
+50%{
+  opacity: 0.5;
+}
+60%{
+  opacity: 0.6;
+}
+80%{
+  opacity: 0.8;
+  }
+  90%{
+    opacity: 0.9;
+  }
+100%{
+  opacity: 1;
+}
+}
+.work-block:hover {
+  opacity: 0;
+  animation : Fade 0.2s ease-in-out forwards; 
+  }
+  @keyframes Fade {
+  0%{
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40%{
+    opacity: 0.4;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  60%{
+    opacity: 0.6;
+  }
+  80%{
+    opacity: 0.8;
+    }
+    90%{
+      opacity: 0.9;
+    }
+  100%{
+    opacity: 1;
+  }
+  }

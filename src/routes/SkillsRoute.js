@@ -5,8 +5,8 @@ const skillsArray = [
     
     {
         name: "html",
-        type: "Web development",
-        use: "Literally the easiest language a human can learn and use, mainly used for front-end websites, the basic of the basics",
+        type: "Web developpement",
+        use: "Litteraly the easiest language a human can learn and use, mainly used for front-end websites, the basic of the basics",
         dotColor: "#913133",
     },
     {
@@ -53,6 +53,7 @@ function SkillsRoute() {
             <div className="flex flex-col">
               {skillsArray.map((item, index) => (
                 <a href={item.link} className="mb-5" key={index}>
+                      <div className="skill-block">
                   <div className="flex max-h-42 flex-col md:flex-row border rounded-xl">
                     <div className="flex flex-col border-bottom-proj border-right py-10 px-5">
                       <h5 className="text-md font-thin text-black">
@@ -78,16 +79,18 @@ function SkillsRoute() {
                         </h1>
                       </div>
                     </div>
-                                        <div className="flex flex-col py-10 px-5">
-                                            <h5 className="text-md font-thin text-black"><code>use</code></h5>
-                                            <h1 className="text-lg font-normal text-black">{item.use}</h1>
-                                        </div>
-                                    </div>
-                                </a>
+                     <div className="flex flex-col py-10 px-5">
+                      <h5 className="text-md font-thin text-black"><code>use</code></h5>
+                      <h1 className="text-lg font-normal text-black">{item.use}</h1>
+                      </div>
+                       </div>
+                       </div>
+                      </a>
                             ))}
                         </div>
                     </div>
                 </div>
+
             </motion.div>
         </div>
     );

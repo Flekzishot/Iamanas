@@ -21,7 +21,7 @@ function NotFound() {
           <div className="flex flex-col flex-1">
             <Header>404 - Not Found!</Header>
             <Paragraph>
-              Sorry pal it seems like you've stumbled upon a page that doesn't exist. You can go back to the another page by clicking on any button on the left sidebar. If you think this is a bug, please contact me via E-Mail: <a className="custom-purple-color" href="mailto:contact@iamanas.dev">contact@iamanas.dev</a>
+              Sorry it seems like you've stumbled upon a page that doesn't exist and you shouldn't be here silly. You can go back to the another page by clicking on any button on the left sidebar. If you think this is a bug, please contact me via E-Mail: <a className="custom-purple-color" href="mailto:contact@iamanas.dev">contact@iamanas.dev</a>
             </Paragraph>
           </div>
         </div>

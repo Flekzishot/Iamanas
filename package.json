@@ -22,6 +22,7 @@
     "react-scripts": "^5.0.1",
     "react-spring": "^9.6.0",
     "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-node": "^5.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

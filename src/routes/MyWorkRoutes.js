@@ -34,6 +34,7 @@ function MyWorkRoute() {
         <div className="flex flex-col">
           {projectArray.map((item, index) => (
             <a href={item.link} className="mb-5" key={index}>
+            <div className="work-block">
               <div className="flex max-h-42 flex-col md:flex-row border rounded-xl">
                 <div className="flex flex-col border-bottom-proj border-right py-10 px-5">
                   <h5 className="text-md font-thin text-black">
@@ -56,7 +57,7 @@ function MyWorkRoute() {
                     <div
                       className="w-3 h-3 rounded-full"
                       style={{ backgroundColor: item.dotColor }}
-                    ></div>
+                      ></div>
                   </div>
                 </div>
                 <div className="flex flex-col py-10 px-5">
@@ -68,6 +69,7 @@ function MyWorkRoute() {
                   </h1>
                 </div>
               </div>
+            </div>
             </a>
           ))}
         </div>
