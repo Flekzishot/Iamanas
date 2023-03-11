@@ -28,10 +28,6 @@ const Sidebar = (props) => {
       name :"More info",
       link : "/more"
     },
-    {
-      name :"Musics",
-      link : "/music"
-    }
   ];
   return (
     <div>
